@@ -28,7 +28,7 @@ const WidgetsDropdown = () => {
               </span>
             </>
           }
-          title="Users"
+          title="Surveys"
           action={
             <CDropdown alignment="end">
               <CDropdownToggle color="transparent" caret={false} className="p-0">
@@ -109,13 +109,13 @@ const WidgetsDropdown = () => {
           color="info"
           value={
             <>
-              $6.200{' '}
+              680{' '}
               <span className="fs-6 fw-normal">
                 (40.9% <CIcon icon={cilArrowTop} />)
               </span>
             </>
           }
-          title="Income"
+          title="Cases"
           action={
             <CDropdown alignment="end">
               <CDropdownToggle color="transparent" caret={false} className="p-0">
@@ -201,7 +201,7 @@ const WidgetsDropdown = () => {
               </span>
             </>
           }
-          title="Conversion Rate"
+          title="5G Rate"
           action={
             <CDropdown alignment="end">
               <CDropdownToggle color="transparent" caret={false} className="p-0">
@@ -274,7 +274,7 @@ const WidgetsDropdown = () => {
               </span>
             </>
           }
-          title="Sessions"
+          title="Errors"
           action={
             <CDropdown alignment="end">
               <CDropdownToggle color="transparent" caret={false} className="p-0">
